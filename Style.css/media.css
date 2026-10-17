@@ -1,0 +1,7 @@
+@media(max-width:350px){
+
+    .background{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
