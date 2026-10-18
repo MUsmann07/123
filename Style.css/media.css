@@ -77,6 +77,12 @@
         max-width: fit-content;
     }
 
+    .videobox{
+        width: 506px;
+        height: 450px;
+        margin-bottom: 40px;
+    }
+
 }
 
 
@@ -115,11 +121,6 @@
     .imgfox{
         margin-top: 690px;
         justify-content: center;
-    }
-
-    .videobox{
-        width: 400px;
-        height: 400px;
     }
 
     .imgft{
