@@ -52,7 +52,7 @@
     }
 
     .img >p{
-        font-size: 16px;
+        font-size: large;
     }
 }
 
@@ -108,5 +108,22 @@
 
     .img{
         max-width: min-content;
+    }
+}
+
+@media(max-width:670px){
+    .imgfox{
+        margin-top: 690px;
+        justify-content: center;
+    }
+
+    .videobox{
+        width: 400px;
+        height: 400px;
+    }
+
+    .imgft{
+        padding-left: 50px;
+        justify-content: center;
     }
 }
