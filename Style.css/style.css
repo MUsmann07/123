@@ -251,9 +251,7 @@ h3{
 .mlbox{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px 0px;
-    padding-left: 26px;
+    flex-wrap: wrap; 
 }
 
 .boxicn{
@@ -358,8 +356,8 @@ h3{
     width: 100%;
     height: 950px;
     background-color: #9634009d;
-    padding-inline: 10%;
-    padding-top: 100px;
+    padding-inline: 100px;
+    padding-top: 90px;
     position: relative;
 }
 
@@ -373,7 +371,7 @@ h3{
 }
 
 .foxtext{
-    width: 500px;
+    width: 450px;
     height: 400px;
 }
 .videobox{
@@ -408,7 +406,7 @@ h3{
 }
 
 .number{
-    width: 250px;
+    width: 230px;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.151);
     margin-top: 66px;
@@ -613,6 +611,7 @@ h3{
     width: 100%;
     height: 700px;
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     padding-inline: 34px;
 }
