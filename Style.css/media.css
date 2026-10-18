@@ -128,7 +128,6 @@
     .background4{
         margin-bottom: 88px;
     }
-    
 }
 
 @media(max-width:650px){
@@ -228,5 +227,5 @@
         padding-left: 50px;
         justify-content: center;
     }
-}
 
+}
