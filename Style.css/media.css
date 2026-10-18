@@ -41,6 +41,18 @@
     .box2{
         width: 80%;
     }
+
+    .img{
+        padding-left: 50px;
+    }
+
+    .img > h1{
+        font-size: 40px;
+    }
+
+    .img >p{
+        font-size: 16px;
+    }
 }
 
 @media(max-width:650px){
@@ -51,7 +63,7 @@
     }
 
     .img{
-        padding-left: 0;
+        padding-left: 15px;
     }
 
     .cont2{
