@@ -1,7 +1,46 @@
-@media(max-width:350px){
+@media(max-width:1200px){
 
-    .background{
+    .boxA{
         flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .background2{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media(max-width:792px){
+
+    .box1{
+        width: 80%;
+    }
+    
+    .box2{
+        width: 80%;
+    }
+}
+
+@media(max-width:650px){
+
+    .cont{
+        justify-content: center;
+        flex-wrap: wrap ;
+    }
+
+}
+
+
+@media(max-width:425px){
+
+    .box1{
+        max-width: 100%;
+    }
+
+    .boxA{
         justify-content: center;
     }
 }
