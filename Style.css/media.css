@@ -29,6 +29,9 @@
         width: 40%;
     }
 
+    .number{
+        flex-wrap: nowrap;
+    }
 
 }
 
@@ -53,6 +56,10 @@
 
     .img >p{
         font-size: large;
+    }
+
+    .text{
+        margin-top: 500px;
     }
 }
 
@@ -84,6 +91,20 @@
 
     .foxtext>p{
         font-size: 20px;
+    }
+
+    
+    .number{
+        width: 100%;
+    }
+
+    .imgfox{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 900px;
     }
 
 }
@@ -131,3 +152,5 @@
         justify-content: center;
     }
 }
+
+@media(max-width:575)
