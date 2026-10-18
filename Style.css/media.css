@@ -8,7 +8,9 @@
 
     .background2{
         flex-wrap: wrap;
+        justify-content: center;
     }
+
 
     .background4{
         flex-wrap: wrap;
@@ -102,6 +104,10 @@
         height: 1688px;
     }
 
+    .img2{
+        margin-top: 855px;
+    }
+
 }
 
 @media(max-width:690px){
@@ -112,6 +118,15 @@
 
     .Certified{
         margin-top: 2100px;
+    }
+
+    .img2{
+        margin-top: 2420px;
+        width: 100%;
+    }
+
+    .background4{
+        margin-bottom: 88px;
     }
     
 }
