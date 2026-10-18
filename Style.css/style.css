@@ -18,6 +18,19 @@
     padding: 20px 0px;
 }
 
+.texti{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texti i{
+    color: #FD5F00;
+    font-size: 20px;
+}
+
 .fox>h1{
     color: #727272;
     line-height: 22px;
@@ -183,21 +196,6 @@ h3{
     margin-bottom: 20px;
 }
 
-.icn>i{
-    position: absolute;
-    top: 48px;
-    font-size: 20px;
-    color: #FD5F00;
-}
-
-.fa-envelope{
-    left: 260px;
-}
-
-.fa-phone{
-    left: 620px;
-}
-
 .fox>h2{
     background-color: #FD5F00;
     padding: 10px;
@@ -249,9 +247,11 @@ h3{
 }
 
 .mlbox{
+    width: 665px;
+    height: 500px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-wrap: wrap; 
 }
 
 .boxicn{
@@ -612,14 +612,13 @@ h3{
     width: 100%;
     height: 700px;
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 30px;
     padding-inline: 34px;
 }
 
 .container2{
     width: 300px;
-    height: 700px;
+    height: 750px;
     transition: .5s;
     box-shadow: 0px 0px 3px gray;
     border-radius: 15px;
@@ -808,7 +807,7 @@ h3{
     width: 100%;
     height: 700px;
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
     padding-inline: 40px;
 }
 
@@ -894,7 +893,7 @@ h3{
 
 .learn{
     position: absolute;
-    bottom: 0px;
+    bottom: -80px;
     left: 30px;
 }
 
